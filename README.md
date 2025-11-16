@@ -30,9 +30,46 @@ Validate the HTML and CSS code
 Publish the website in the given URL.
 
 ## PROGRAM
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Photo Gallery</h1>
+    <div class="gallery">
+        <img src="https://i.pinimg.com/736x/5d/be/a5/5dbea56b79fbf32a6ad50cc3984c1b31.jpg" alt="Image 1">
+<img src="https://i.pinimg.com/736x/bf/dc/36/bfdc3609af62c92992c94e1c089535b2.jpg" alt="Image 2">
+<img src="https://i.pinimg.com/736x/38/53/4a/38534a0f2cdb5af94fe4020225d6aebd.jpg" alt="Image 3">
+<img src="https://i.pinimg.com/736x/69/94/66/6994665d06f1b59a16040e73279772b7.jpg" alt="Image 4">
+<img src="https://i.pinimg.com/736x/1c/fa/02/1cfa021c574a7c6696b7c6d4479fd92a.jpg" alt="Image 5">
+<img src="https://i.pinimg.com/736x/6e/be/92/6ebe92033af4045b4f00e6fa6c091647.jpg" alt="Image 6">
+
+
+
+        
+    </div>
+
+    
+    <div id="modal" class="modal">
+        <span id="close">&times;</span>
+        <img class="modal-content" id="modal-img">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+```
 
 
 ## OUTPUT
+<img width="1421" height="760" alt="image" src="https://github.com/user-attachments/assets/63132f55-ab22-478a-bd5b-ff7f98a2d0a8" />
+<img width="1403" height="718" alt="image" src="https://github.com/user-attachments/assets/84184e48-5a90-4b90-b838-7cb87b777107" />
+
+
 
 
 ## RESULT
